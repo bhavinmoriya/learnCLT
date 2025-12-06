@@ -33,6 +33,7 @@ def plot_results(trials, mean, std_dev, n, num_simulations):
     return fig
 
 def main():
+    st.set_page_config(page_title="Central Limit Theorem (CLT) with Coin Flips")  # Unique browser tab title
     st.title("Central Limit Theorem (CLT) with Coin Flips")
     st.write("This app simulates the CLT by flipping a fair coin multiple times and plotting the distribution of the number of heads.")
 

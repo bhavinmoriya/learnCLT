@@ -41,6 +41,7 @@ def plot_exponential_results(trials, mean, std_dev, n, num_simulations):
     return fig
 
 def main():
+    st.set_page_config(page_title="Central Limit Theorem (CLT) with Exponential Distribution")  # Unique browser tab title
     st.title("Central Limit Theorem (CLT) with Exponential Distribution")
     st.write("This app simulates the CLT by summing exponential random variables and plotting the distribution.")
 

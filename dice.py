@@ -33,6 +33,7 @@ def plot_dice_results(trials, mean, std_dev, n, num_simulations):
     return fig
 
 def main():
+    st.set_page_config(page_title="Central Limit Theorem (CLT) with Dice Rolls")  # Unique browser tab title
     st.title("Central Limit Theorem (CLT) with Dice Rolls")
     st.write("This app simulates the CLT by rolling a die multiple times and plotting the distribution of the sum.")
 
