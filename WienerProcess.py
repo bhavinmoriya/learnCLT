@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_agg import FigureCanvasAgg
 import io
+plt.style.use("ggplot")
 
 def brownian_motion(n_steps=1000, dt=0.01, sigma=1.0, x0=0.0):
     """Generate a simple 1D Brownian motion path."""
